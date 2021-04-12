@@ -23,7 +23,7 @@ namespace Dictionary.Console
 
             if (!wordResponse.Found)
             {
-                C.WriteLine("The word does not exist in this dictionary");
+                C.WriteLine("The word/dictionary does not exist in this dictionary");
                 return;
             }
             
